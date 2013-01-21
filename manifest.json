@@ -1,0 +1,13 @@
+{
+  "name": "LingrNeedle",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Lingrをちょっと便利にする拡張",
+  "content_scripts": [
+    {
+      "matches": ["http://lingr.com/"],
+      "js": ["jquery-1.9.0.min.js","script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
